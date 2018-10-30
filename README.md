@@ -1,5 +1,5 @@
 # hello,school
-没想到lesson 1，就这么艰难
+没想到lesson 1，就这么艰难<p></p>>
 第一次在GitHub pages卡住
 一直不明白为什么first commit提交不了
 删除了库之后重新再来
