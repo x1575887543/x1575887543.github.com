@@ -12,7 +12,7 @@ body{
 	font-size: 12px;
 	font-family: arial;
 }
-
+/*导航栏部分*/
 .page-header{
 	padding-top: 20px;
 	padding-right: 10px;
@@ -24,8 +24,9 @@ body{
 	font-weight:700;
 	color:#333;
 	margin-left: 20px;
+	text-decoration: underline;
 }
-
+/*更多产品*/
 .page-header nav a :last-child{
 	display: inline-block;
 	width: 60px;
@@ -42,7 +43,7 @@ body{
 	text-align: center;
 	margin-top: 145px;
 }
-
+/*logo图片*/
 .page-mainer .logo-container img{
 	width: 270px;
 	height: 129px;
@@ -53,10 +54,10 @@ body{
 	display: flex;
 	justify-content: center;
 }
-
+/*输入栏*/
 .form-container .form-search{
 	display: inline-block;
-	width: 530px;
+	width: 539px;
 	height: 34px;
 	border:1px solid #b6b6b6;
 	border-right: 0;
@@ -64,7 +65,7 @@ body{
 	line-height: 34px;
 	padding-left: 10px;
 }
-
+/*百度一下按钮*/
 .form-container .submit-btn{
 	display: inline-block;
 	width: 100px;
@@ -77,11 +78,14 @@ body{
 	outline: none;
 	cursor: pointer;
 }
-
-.form-container .submit-btn: hover{
+/*鼠标移动到按钮出现变暗和阴影*/
+.form-container .submit-btn:hover{
 	opacity: 0.8;
+	background: #0d5fdd;
+	border-bottom: 1px solid #4169E1;
+	box-shadow: 1px 1px 1px #ccc;
 }
-
+/*脚部*/
 .page-footer{
 	text-align: center;
 	padding-bottom: 50px;
