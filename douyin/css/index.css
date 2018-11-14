@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.page-content .page-header{
+  height: 120px;
+  line-height: 120px;
+  overflow: hidden;
+}
+
+/* Logo */
+.page-content .page-header .header-left-logo{
+  float: left;
+  margin-left: 80px;
+  height: 100%;
+}
+
+.page-content .page-header .header-left-logo a{
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+/* 头部导航栏 */
+.page-content .page-header .header-right-nav{
+  float: right;
+  margin-right: 200px;
+
+}
+
+.page-content .page-header .header-right-nav a {
+ color: #ffffff;
+ text-decoration: none;
+}
+
+.header-navs{
+  list-style: none;
+}
+
+.header-navs .nav{
+  display: inline-block;
+  margin-left: 25px;
+}
+     
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+/* -------------start mainer-------------*/
+.page-mainer{
+  width: 450px;
+  position: absolute;
+  top: 50%;
+  right: 150px;
+  transform: translateY(-50%);
+}
+
+.page-mainer .slogan{
+  float: right;
+  margin-bottom: 50px;
+  width: 450px;
+}
+
+.page-mainer .slogan img{
+  width: 100%;
+}
+
+.page-mainer .button-list{
+  float: right;
+}
+
+.btn-list{
+  float: right;
+  font-size: 0;
+}
+
+.btn-primary{
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 130px;
+  height: 50px;
+  transition: .15s opacity;
+  transition-delay: .15s;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 1px 1px 7px 2px rgba(0,0,0,.54);
+}
+
+.icon-QRcode{
+  float: right;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-image: url(../QRcode.png);
+}
+
+.icon-QRcode img{
+  width: 223px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: scale(0.23);
+  transform-origin: top right;  /* 设置最右上角为旋转的基点 */
+  opacity: 0;
+  transition: .3s all;
+}
+
+/* 二维码 */
+.icon-QRcode:hover img{
+  /* 二维码显示 */
+  transform: scale(1);
+  opacity: 1;
+  /* TODO ios 安卓按钮隐藏 */
+}
+ 
+.icon-ios{
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../appstore.png);
+}
+
+.icon-andorid{
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../android.png);
+}
+
+.page-footer{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.page-footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-navs{
+  margin-bottom: 12px;
+}
+
+.footer-navs a{
+  padding: 0 7px;
+}
+
+.footer-copyright p{
+  line-height: 25px;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
